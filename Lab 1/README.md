@@ -33,6 +33,9 @@ Our original brainstorming storyboards center on an alarm clock that wakes up th
 Our intended users are academics and professionals who want to wake up in a healthy, non jarring way through light rather than sound. Additionally, our users are people who may not live in the ideal weather setting of their choice but want to mimic their ideal morning weather, whether it's a sunny, bright day or a cool, rainy day.
 
 \*\***Include a picture of your storyboard here**\*\*
+<img width="891" alt="Lab1_Storyboard_Version2" src="https://user-images.githubusercontent.com/27168450/132145954-879c5b66-ea17-4e94-8ebc-ef88574438ef.png">
+<img width="964" alt="Lab1_Storyboard" src="https://user-images.githubusercontent.com/27168450/132145958-521e3704-a722-4d88-93e0-3cc681b46857.png">
+
 
 \*\***Summarize feedback you got here.**\*\*
 Our original idea was to simply wake up users with a bright white light. However, on examining this situation, we realized that a bright white light would be a jarring wakeup, almost as jarring as waking up with a loud noise which is the situation our users are trying to avoid. As a result, we changed our idea from a bright white light to colored lights of various intensities that would allow users to choose the intensity of their light wake up.
@@ -78,6 +81,9 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+<img width="825" alt="Lab1_Sketch1" src="https://user-images.githubusercontent.com/27168450/132145992-85a2c629-e11a-411a-aef9-c2682e051bdc.png">
+<img width="1163" alt="Lab1_Sketch2" src="https://user-images.githubusercontent.com/27168450/132145998-60b368c9-7f1f-43ba-a3d1-9a624e583527.png">
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
@@ -86,6 +92,11 @@ We wanted the user to have minimal interaction with the device and to have a ple
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+Video here:
+https://drive.google.com/file/d/17rcfVnOO5HWktPihqlDgZOT3mH0_1VXp/view?usp=sharing
+
+<img width="1174" alt="Lab1_FunctionalPrototypeSetup" src="https://user-images.githubusercontent.com/27168450/132146049-d2d18030-6a98-4c82-8371-dd8afc499793.png">
+<img width="1055" alt="Lab1_FunctionalPrototype" src="https://user-images.githubusercontent.com/27168450/132146052-74d75b84-67df-4ace-a444-66cfc4be8fd9.png">
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 
