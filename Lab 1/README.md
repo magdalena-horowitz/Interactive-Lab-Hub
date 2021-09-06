@@ -24,6 +24,9 @@ F) [Record the interaction](#part-f-record)
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
+
+# See the Reflection/Writeup PDF for all files and descriptions in an organized document 
+
 ## Part A. Plan
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
