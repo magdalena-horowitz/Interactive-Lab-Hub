@@ -115,20 +115,41 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
-- First I love this idea, I think it is relevant and useful especially as you can mimic scenarios
-- With the light source not being strong enough, your acting out the interaction gave great starting point on suggestions as this is a vital feature
-- This is one of the best reports I have seen appreciate you taking the time to document everything! Makes for a great read
-- The programable interface of 3 lights is great for simplicity, would it be interesting to explore a design style method where the user can pick a combination 
+- The light could have been stronger
+- The light could be more customizable
+- Consider the effects of light biologically on one's mood and sleep
 
 
-- great idea! one thing to consider is seeing research on how the color of light affects mood and sleep.
 
 ## Make it your own
 
 Do last week’s assignment again, but this time:
 
 1. It doesn’t have to (just) use light,
-2. You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
-3. We will be grading with an emphasis on creativity.
+3. You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
+4. We will be grading with an emphasis on creativity.
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+## Updates for Part 2:
+
+### Features Added:
+
+   - Vibration
+    - Spotify Connection, option to add music
+    - Eyemask integration - internal light glows from within and wakes the user up with a soft vibration and natural light that's programmable
+
+
+### New Storyboard
+
+### New Photos
+
+### New Video
+
+
+
+### Summary/Reflection
+
+
+
