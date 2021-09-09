@@ -115,6 +115,14 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+- First I love this idea, I think it is relevant and useful especially as you can mimic scenarios
+- With the light source not being strong enough, your acting out the interaction gave great starting point on suggestions as this is a vital feature
+- This is one of the best reports I have seen appreciate you taking the time to document everything! Makes for a great read
+- The programable interface of 3 lights is great for simplicity, would it be interesting to explore a design style method where the user can pick a combination 
+
+
+- great idea! one thing to consider is seeing research on how the color of light affects mood and sleep.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time:
