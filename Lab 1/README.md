@@ -120,6 +120,13 @@ You will be assigned three partners from another group. Go to their github pages
 - Consider the effects of light biologically on one's mood and sleep
 
 
+Most of the feedback centered on concerns that the single light source was not enough to wake up users. People were unsure if they would actually be able to wake up with a single light alarm. Others wanted more customizability on the light - rather than only be able to use the light to mimic sunlight/cloudiness, maybe users should be able to pick light colors based on individual preferences and aethetics. For example, if a user had a pink bedroom and liked the color pink, they could choose a pink light to wake them up. 
+
+Our original idea was to simply wake up users with a bright white light. However, on examining this situation, we realized that a bright white light would be a jarring wakeup, almost as jarring as waking up with a loud noise which is the situation our users are trying to avoid. As a result, we changed our idea from a bright white light to colored lights of various intensities that would allow users to choose the intensity of their light wake up. People were also concerned if they slept in a room with other people, the light alarm woudl wake everybody up. 
+
+We wanted to keep the device as a single light source rather than expand to multiple lights that would fill a room. Accordingly, we changed out device from a bedside alarm to a light up sleep mask that would glow softly, not bldinging the user but keepng the light in their face such that it would wake the user up. A major concern here was to avoid blinding the user and shininign the light right in their face so we want to ensure the light is soft and glowing to avoid harming the user's eyes. Additionally, to account for the feedback regardig multiple people sleeping in a room, the eye mask lights would only affect the user themself and not affect other people in the room. 
+
+
 
 ## Make it your own
 
@@ -143,7 +150,12 @@ Do last week’s assignment again, but this time:
 
 ### New Storyboard
 
+![image](https://user-images.githubusercontent.com/27168450/132705730-aa2823b2-ad22-4098-9a8b-922496c5d0c4.png)
+
+
 ### New Photos
+
+
 
 ### New Video
 
