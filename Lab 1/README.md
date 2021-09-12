@@ -155,6 +155,9 @@ Do last week’s assignment again, but this time:
 
 ### New Photos
 
+![image](https://user-images.githubusercontent.com/27168450/132994463-79c940dd-0f5a-44f3-aa7d-b8d0d7202896.png)
+
+![image](https://user-images.githubusercontent.com/27168450/132994472-5dec9a1f-724f-49a7-b4aa-8d07d3824a86.png)
 
 
 ### New Video
