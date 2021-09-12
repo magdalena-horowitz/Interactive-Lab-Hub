@@ -162,9 +162,15 @@ Do last week’s assignment again, but this time:
 
 ### New Video
 
+https://drive.google.com/file/d/1CVuzRjCND8ynlDErXYqaRebq3DFBF87I/view?usp=sharing
 
 
 ### Summary/Reflection
 
+In this updated version of our "Sunlight Alarm", we decided to increase the impact of the light source by moving the source of the light directly onto the users face so it was a) more visible and brighter in waking up and b) did not disturb a potential partner or other person co-residing in the bed or room. Now, the sunlgiht alarm has transitioned into a "Mask Alarm" and the light will be projected directly onto the user's face with a soft glow coming from the sleeping mask. The user has the option to voice program the mask to display any color light at any strength, and the potential option to include a vibration as well during wakeup. 
+
+We decided to use voice programming so the UI was less primitive (the previous alarm clock only had 3 buttons and 3 color options). This way, the user can take full advantage of any color or strength that he or she prefers as well as bypass the need to press buttons. 
+
+This alarm clock is also now more portable than its predecessor and can be easily customized to the user's needs.
 
 
