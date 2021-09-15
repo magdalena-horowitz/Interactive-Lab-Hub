@@ -7,35 +7,14 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
 **Please indicate anyone you collaborated with on this Lab here.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+N/A yet.
 
 ## Prep
-
+Done 09/14/21
 [Lab prep](prep.md) is extra long this week! Make sure you read it over in time to prepare for lab on Thursday.
 
 ### Get your kit
-If you are remote but in the US, let the teaching team know you need the parts mailed.
-
-If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
-
 ### Set up your Lab 2
-
-1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
-  
-  If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
-
-  ```
-  Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
-  Interactive-Lab-Hub $ git pull upstream Spring2021
-  Interactive-Lab-Hub $ git add .
-  Interactive-Lab-Hub $ git commit -m'merge'
-  Interactive-Lab-Hub $ git push
-  ```
-  Your local and remote should now be up to date with the most recent files.
-
-2. Go to the [lab prep page](prep.md) to inventory your parts and set up your Pi before the lab session on Thursday.
-
-
 ## Overview
 For this assignment, you are going to 
 
@@ -54,10 +33,6 @@ F) [Make a short video of your modified barebones PiClock](#part-f)
 G) [Sketch and brainstorm further interactions and features you would like for your clock for Part 2.](#part-g)
 
 ## The Report
-This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the \*\*\***stars**\*\*\*. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
-
-Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
-
 ## Part A. 
 ### Connect to your Pi
 Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment by typing the following commands.
@@ -70,6 +45,7 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
 
 ```
+^ Done 9/14/2021
 ### Setup Personal Access Tokens on GitHub
 The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
 
@@ -80,7 +56,7 @@ Following the steps listed [here](https://docs.github.com/en/github/authenticati
 Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
 
 ```
-(circuitpython) pi@ixe00:~$ git clone https://github.com/<YOURGITID>/Interactive-Lab-Hub.git
+(circuitpython) pi@ixe00:~$ git clone https://github.com/magdalena-horowitz/Interactive-Lab-Hub.git
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
 ```
 Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
