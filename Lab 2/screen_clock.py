@@ -18,15 +18,15 @@ spi = board.SPI()
 
 # Create the ST7789 display:
 disp = st7789.ST7789(
-    spi,
-    cs=cs_pin,
-    dc=dc_pin,
-    rst=reset_pin,
-    baudrate=BAUDRATE,
-    width=135,
-    height=240,
-    x_offset=53,
-    y_offset=40,
+	spi,
+	cs=cs_pin,
+	dc=dc_pin,
+	rst=reset_pin,
+	baudrate=BAUDRATE,
+	width=135,
+	height=240,
+	x_offset=53,
+	y_offset=40,
 )
 
 # Create blank image for drawing.
@@ -60,12 +60,18 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+from time import strftime, sleep
+
 while True:
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+	# Draw a black filled box to clear the image.
+	draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+	#TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
 
-    # Display image.
-    disp.image(image, rotation)
-    time.sleep(1)
+	str_time = strftime("%m/%d/%Y %H:%M:%S")
+	draw.text((10, 10), str_time, font=font, fill="#FFFFFF")
+
+
+	# Display image.
+	disp.image(image, rotation)
+	time.sleep(1)
