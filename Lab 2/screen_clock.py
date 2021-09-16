@@ -68,8 +68,15 @@ while True:
 
 	#TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
 
-	str_time = strftime("%m/%d/%Y %H:%M:%S")
-	draw.text((10, 10), str_time, font=font, fill="#FFFFFF")
+	# str_time = strftime("%m/%d/%Y %H:%M:%S")
+	month_time = strftime("%m")
+	day_time = strftime("%m")
+	year_time = strftime("%m")
+	hour_time = strftime("%m")
+	minute_time = strftime("%m")
+	second_time = strftime("%m")
+
+	draw.text((10, 10), month_time, font=font, fill="#FFFFFF")
 
 
 	# Display image.
