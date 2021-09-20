@@ -66,7 +66,7 @@ from time import strftime, sleep
 
 while True:
 	# Draw a black filled box to clear the image.
-	draw.rectangle((0, 0, width, height), outline=0, fill=0)
+	draw.rectangle((0, 0, width, height), outline=0, fill="white")
 
 	#TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
 
@@ -78,7 +78,7 @@ while True:
 	minute_time = strftime("%m")
 	second_time = strftime("%m")
 
-	draw.text((10, 10), str_time, font=font, fill="#FFFFFF")
+	draw.text((10, 10), str_time, font=font, fill="black")
 
 	hour_time = int(hour_time)%12
 	
