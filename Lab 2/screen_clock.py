@@ -53,7 +53,9 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+# Paskowy
+# font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/paskowy/paskowy/Paskowy.ttf", 50)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -68,16 +70,19 @@ while True:
 
 	#TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
 
-	# str_time = strftime("%m/%d/%Y %H:%M:%S")
+	str_time = strftime("%m/%d/%Y %H:%M:%S")
 	month_time = strftime("%m")
 	day_time = strftime("%m")
 	year_time = strftime("%m")
-	hour_time = strftime("%m")
+	hour_time = strftime("%H")
 	minute_time = strftime("%m")
 	second_time = strftime("%m")
 
-	draw.text((10, 10), month_time, font=font, fill="#FFFFFF")
+	draw.text((10, 10), str_time, font=font, fill="#FFFFFF")
 
+	hour_time = int(hour_time)%12
+	
+	
 
 	# Display image.
 	disp.image(image, rotation)
