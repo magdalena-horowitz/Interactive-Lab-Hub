@@ -238,6 +238,11 @@ Video Here: https://drive.google.com/file/d/1Bz68pwjpGBhsHemQy0eeETpNFdtbFfgL/vi
 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+The goal of part two is to add additional features that allow the user to interact with the barcode. Perhaps the ability to scan the barcode and have the ability to see a fun fact that happened at the same time in past history would be a fun addition.
+
+![IMG_0298](https://user-images.githubusercontent.com/27168450/134097545-c3e8d46c-9f95-41b6-9757-c3173c4ae86b.jpg)
+
+
 # Prep for Part 2
 
 1. Pick up remaining parts for kit.
