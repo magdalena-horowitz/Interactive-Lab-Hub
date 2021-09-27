@@ -250,11 +250,17 @@ The goal of part two is to add additional features that allow the user to intera
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 # Lab 2 Part 2
+For Part 2, I added the ability when clicking the second button an interactive QR code:
+When you scan the QR code with your iPhone, videos, events, and news with the same date and time appear in a google search. 
+The QR code refreshes every 10 seconds so you can get updated news all the time and stay current!
 
-Pull Interactive Lab Hub updates to your repo.
+See video link on google drive below as well as photos for Part 2 additions:
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+Video:
+https://drive.google.com/file/d/1vgtuF2fP7sXD9hYGF-pXlLcAGYdT7m1i/view?usp=sharing
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
+![IMG_6863](https://user-images.githubusercontent.com/27168450/134841466-d3c01988-bbd0-4e34-a33c-5e1e513982bd.jpg)
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page.
+![IMG_6864](https://user-images.githubusercontent.com/27168450/134841472-42746645-907c-4a79-8b2c-853d1c2b7168.jpg)
+
+![IMG_6862](https://user-images.githubusercontent.com/27168450/134841436-e84e3195-58f8-4b51-b161-4c8816e18133.jpg)
