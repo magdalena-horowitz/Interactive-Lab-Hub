@@ -250,14 +250,21 @@ The goal of part two is to add additional features that allow the user to intera
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 # Lab 2 Part 2
+
+
 For Part 2, I added the ability when clicking the second button an interactive QR code:
 When you scan the QR code with your iPhone, videos, events, and news with the same date and time appear in a google search. 
-The QR code refreshes every 10 seconds so you can get updated news all the time and stay current!
+The QR code refreshes every 10 seconds in different RAINBOW colors so you can get updated news all the time and stay current!
 
 See video link on google drive below as well as photos for Part 2 additions:
 
+
+
 Video:
 https://drive.google.com/file/d/1vgtuF2fP7sXD9hYGF-pXlLcAGYdT7m1i/view?usp=sharing
+
+
+
 
 ![IMG_6863](https://user-images.githubusercontent.com/27168450/134841466-d3c01988-bbd0-4e34-a33c-5e1e513982bd.jpg)
 
