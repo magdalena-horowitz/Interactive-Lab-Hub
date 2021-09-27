@@ -16,25 +16,29 @@ Done 09/14/21
 
 ### Get your kit
 
+If you are remote but in the US, let the teaching team know you need the parts mailed.
+
+If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
+
 ### Set up your Lab 2
 
 1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
-  
-  If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
+   If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
-  ```
-  Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
-  Interactive-Lab-Hub $ git pull upstream Fall2021
-  ```
-  
-  The reason why we are adding a upstream with **course lab-hub** instead of yours is because the local Interactive-Lab-Hub folder is linked with your own git repo already. Try typing ``git remote -v`` and you should see there is the origin branch with your own git repo. We here add the upstream to get latest updates from the teaching team by pulling the **course lab-hub** to your local machine. After your local folder got the latest updates, push them to your remote git repo by running:
-  
-  ```
-  Interactive-Lab-Hub $ git add .
-  Interactive-Lab-Hub $ git commit -m'merge'
-  Interactive-Lab-Hub $ git push
-  ```
-  Your local and remote should now be up to date with the most recent files.
+```
+Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
+Interactive-Lab-Hub $ git pull upstream Fall2021
+```
+
+The reason why we are adding a upstream with **course lab-hub** instead of yours is because the local Interactive-Lab-Hub folder is linked with your own git repo already. Try typing `git remote -v` and you should see there is the origin branch with your own git repo. We here add the upstream to get latest updates from the teaching team by pulling the **course lab-hub** to your local machine. After your local folder got the latest updates, push them to your remote git repo by running:
+
+```
+Interactive-Lab-Hub $ git add .
+Interactive-Lab-Hub $ git commit -m "message"
+Interactive-Lab-Hub $ git push
+```
+
+Your local and remote should now be up to date with the most recent files.
 
 If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
@@ -103,8 +107,6 @@ Clone your own lab-hub repo for this assignment to your Pi and change the direct
 (circuitpython) pi@ixe00:~$ git clone https://github.com/magdalena-horowitz/Interactive-Lab-Hub.git
 (circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
 ```
-
-Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
 
 Install the packages from the requirements.txt and run the example script `cli_clock.py`:
 
@@ -217,11 +219,9 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 ## Make a short video of your modified barebones PiClock
 
-
 \*\*\***Take a video of your PiClock.**\*\*\*
 
 Video Here: https://drive.google.com/file/d/1Bz68pwjpGBhsHemQy0eeETpNFdtbFfgL/view?usp=sharing
-
 
 ![image](https://user-images.githubusercontent.com/27168450/134096438-7bc744de-0be0-4467-a00b-d76b455351a5.png)
 ![image](https://user-images.githubusercontent.com/27168450/134096472-2abd8531-168e-442f-a08a-858e977acd97.png)
@@ -229,10 +229,6 @@ Video Here: https://drive.google.com/file/d/1Bz68pwjpGBhsHemQy0eeETpNFdtbFfgL/vi
 ![image](https://user-images.githubusercontent.com/27168450/134096438-7bc744de-0be0-4467-a00b-d76b455351a5.png)
 ![image](https://user-images.githubusercontent.com/27168450/134096510-00376457-ca71-4570-b2e6-bbb607629cac.png)
 ![image](https://user-images.githubusercontent.com/27168450/134096534-3a303190-b732-4fb2-97e4-593205c96bf2.png)
-
-
-
-
 
 ## Part G.
 
@@ -242,29 +238,22 @@ The goal of part two is to add additional features that allow the user to intera
 
 ![IMG_0298](https://user-images.githubusercontent.com/27168450/134097545-c3e8d46c-9f95-41b6-9757-c3173c4ae86b.jpg)
 
-
 # Prep for Part 2
 
-1. Pick up remaining parts for kit.
+1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 # Lab 2 Part 2
 
-
 For Part 2, I added the ability when clicking the second button an interactive QR code:
-When you scan the QR code with your iPhone, videos, events, and news with the same date and time appear in a google search. 
+When you scan the QR code with your iPhone, videos, events, and news with the same date and time appear in a google search.
 The QR code refreshes every 10 seconds in different RAINBOW colors so you can get updated news all the time and stay current!
 
 See video link on google drive below as well as photos for Part 2 additions:
 
-
-
 Video:
 https://drive.google.com/file/d/1vgtuF2fP7sXD9hYGF-pXlLcAGYdT7m1i/view?usp=sharing
-
-
-
 
 ![IMG_6863](https://user-images.githubusercontent.com/27168450/134841466-d3c01988-bbd0-4e34-a33c-5e1e513982bd.jpg)
 
@@ -273,4 +262,3 @@ https://drive.google.com/file/d/1vgtuF2fP7sXD9hYGF-pXlLcAGYdT7m1i/view?usp=shari
 ![IMG_6862](https://user-images.githubusercontent.com/27168450/134841436-e84e3195-58f8-4b51-b161-4c8816e18133.jpg)
 
 ![image](https://user-images.githubusercontent.com/27168450/134841869-09013cd5-4029-4a2b-b57b-e5bdd1f0d6c1.png)
-
