@@ -20,6 +20,8 @@ import adafruit_rgb_display.hx8357 as hx8357  # pylint: disable=unused-import
 import adafruit_rgb_display.st7735 as st7735  # pylint: disable=unused-import
 import adafruit_rgb_display.ssd1351 as ssd1351  # pylint: disable=unused-import
 import adafruit_rgb_display.ssd1331 as ssd1331  # pylint: disable=unused-import
+import qrcode
+
 
 # Configuration for CS and DC pins (these are PiTFT defaults):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -74,7 +76,33 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image)
 
-image = Image.open("red.jpg")
+
+#QR Code
+import qrcode
+qr = qrcode.QRCode(
+    version=1,
+    error_correction=qrcode.constants.ERROR_CORRECT_L,
+    box_size=10,
+    border=4,
+)
+
+from time import strftime, sleep
+date = strftime("%m/%d/%Y %H:%M:%S")
+
+qr.add_data(f'https://www.google.com/search?q={date}')
+qr.make(fit=True)
+
+img = qr.make_image(fill_color="black", back_color="white")
+counter = 1
+img.save(f'QRcode_{counter}.jpg')
+print(type(img))
+
+# END QR code 
+
+
+image = Image.open(f'QRcode_{counter}.jpg').convert('RGB')
+print (type(image))
+
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
@@ -84,8 +112,8 @@ backlight.value = True
 image_ratio = image.width / image.height
 screen_ratio = width / height
 if screen_ratio < image_ratio:
-    scaled_width = image.width * height // image.height
-    scaled_height = height
+    scaled_width = (image.width * height // image.height)//2
+    scaled_height = height//2
 else:
     scaled_width = width
     scaled_height = image.height * width // image.width
@@ -97,5 +125,6 @@ y = scaled_height // 2 - height // 2
 image = image.crop((x, y, x + width, y + height))
 
 # Display image.
+
 disp.image(image)
 
