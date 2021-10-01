@@ -57,7 +57,7 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 (This shell file should be saved to your own repo for this lab.)
 
 
-***Find added script in: Lab3/added_scripts/greet_by_your_name.sh
+###### Find added script in: Lab3/added_scripts/greet_by_your_name.sh
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
@@ -71,7 +71,7 @@ One thing you might need to pay attention to is the audio input setting of Pi. S
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
-***Find added script in: Lab3/added_scripts/STT_phone.number.sh --> uses the new file: input_STT.py 
+###### Find added script in: Lab3/added_scripts/STT_phone.number.sh --> uses the new file: input_STT.py 
 
 Bonus Activity:
 
