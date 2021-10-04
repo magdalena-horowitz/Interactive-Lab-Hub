@@ -113,9 +113,34 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 
+_Dialog_
+
+"Hi I'm Planty, your new plant! Thanks for bringing me home. Just a reminder, that since I'm a succulent, I only need to be watered once every couple of weeks once my soil gets very dry and I love a lot of sunlight!"
+
+...
+
+"Hi Maggie... I'm feeling kind of thirsty. Can you give me some water? Don't overhydrate me though, just enough to dampen my soil, thanks!"
+
+
+"Great!! No longer thirsty, see you tomorrow Maggie. Going to sleep now..."
+
+...
+
+"Hi Maggie, I'm feeling kind of moody. Can I get some more sunlight so I can boost my mood and be happier? Try moving me closer to the window or another natural light source!"
+
+"That's great! Since yesterday I'm so much happier! Please keep me by this new spot. Talk to you soon! Thanks for taking care of me :) "
+
+
 
 \*\***Please describe and document your process.**\*\*
 
+Just like children and pets, plants need proper attention to thrive and grow.
+
+ Talky Plant would come in the form of a digital plant pot that would have light sensors, water sensors, and sound sensors. If the plant was unahappy or under not ideal conditions, it would strike up a conversation with its owner to ensure it gets the proper care it needs. 
+ 
+ Talky Plant could also intake user speech and understand if the user said it just watered the plant or gave it more light to remind it to recheck its sensors and engage with the user.
+ 
+ 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
