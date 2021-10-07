@@ -171,11 +171,31 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
 
+#### Feedback from Part 1:
+Mayowa Olatoye
+I loved you uploaded a video! Very cool interaction. An idea, would it be possible to show a visual display of the feedback from the plant also? This way you can share the experience of the plant with other participants in the home remotely.
+
+Rohan Reddy
+This is a really cool idea! I'm always forgetting about my plants so giving them a voice to talk about their needs is a great idea.
+One possible suggestion could be to think about other sensors that you could use.
+Maybe you could use light to convey when the plant is thirsty. Or you could use the press of a button to simulate petting the plant?
+Cool idea though, and good luck with the rest of the lab!
+
+Jenny Li
+Hi Magdalena! I really really love your design! It is just so cool and I wish that I can be as creative! It is really important to check the status of the plant because they are really like babies that cannot talk and therefore may get hurt easily without detailed care. In this case, I found your design having a huge market in the real world if actual built. Besides, I think that your storyboard looks so cute and so clear, and your discussion about improving the design so that it can detect whether the person is around is also very constructive. Overall really great job! -- Jenny
+
+
 ## Prep for Part 2
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+_1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings... 
+ _
+ The visuals of the design of the device can definitely be improved. While the device is a voice-activated plant, there are currently incoming signals that it reads: ie. motion, voice, touch, but doesn't output a lot of signals other than sound (voice). The seocnd part of the lab now uses buttons to indicate that the plant is ready for care and is ready to say something. This will incorporate light, a display screen with audio --> text display for those who are hard of hearing or deaf, and the option to google the care instructions for your plant.  
+
+_2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+_
+For part 2, the plant will be able to be pet by pressing a button, watered for the correct amount of time (timed through 3-5 seconds through a blinking light), and the audio output will also be displayed on the screen. Finaly, the option to integrate the device with a google search for your specific plant will be given so you can get more detailed instructions about the history, details, and care instructions for your plant.
+
+_3. Make a new storyboard, diagram and/or script based on these reflections._
 
 ## Prototype your system
 
