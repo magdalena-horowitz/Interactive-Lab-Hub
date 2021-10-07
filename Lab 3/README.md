@@ -187,15 +187,29 @@ Hi Magdalena! I really really love your design! It is just so cool and I wish th
 
 ## Prep for Part 2
 
-_1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings... 
- _
- The visuals of the design of the device can definitely be improved. While the device is a voice-activated plant, there are currently incoming signals that it reads: ie. motion, voice, touch, but doesn't output a lot of signals other than sound (voice). The seocnd part of the lab now uses buttons to indicate that the plant is ready for care and is ready to say something. This will incorporate light, a display screen with audio --> text display for those who are hard of hearing or deaf, and the option to google the care instructions for your plant.  
+_1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings..._
 
-_2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-_
+
+ The visuals of the design of the device can definitely be improved. While the device is a voice-activated plant that personifies your plant to treat it as a pet, there are currently only incoming signals that it reads: ie. motion, voice, and touch. It currently doesn't output a lot of signals other than sound (voice). 
+ 
+ The second part of the lab now uses buttons to indicate that the plant is ready for care and is ready to say something. This will incorporate light, a display screen with audio --> text display for those who are hard of hearing or deaf, and the option to google the care instructions for your plant, its history, family tree, and any more information. 
+
+_2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?_
+
+
 For part 2, the plant will be able to be pet by pressing a button, watered for the correct amount of time (timed through 3-5 seconds through a blinking light), and the audio output will also be displayed on the screen. Finaly, the option to integrate the device with a google search for your specific plant will be given so you can get more detailed instructions about the history, details, and care instructions for your plant.
 
 _3. Make a new storyboard, diagram and/or script based on these reflections._
+
+_Script: _
+
+** Red light sensor is on: Plant needs care **
+
+** Maggie sees the red light and walks closer toward the plant. As Maggie draws near, the camera and a motion detector collectively sense Maggie's presence and Planty begins to talk **
+
+Planty: "Hi Maggie, Good morning! Thanks for noticing I need a bit of care today."
+
+Maggie: "Hi Planty -- 
 
 ## Prototype your system
 
