@@ -197,30 +197,54 @@ _1. What are concrete things that could use improvement in the design of your de
 _2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?_
 
 
-For part 2, the plant will be able to be pet by pressing a button, watered for the correct amount of time (timed through 3-5 seconds through a blinking light), and the audio output will also be displayed on the screen. Finaly, the option to integrate the device with a google search for your specific plant will be given so you can get more detailed instructions about the history, details, and care instructions for your plant.
+For part 2, the plant will be able to be pet by pressing a button, watered for the correct amount of time (timed through 3-5 seconds through a blinking light), and the audio output will also be displayed on the screen. Finally, the option to integrate the device with a google search for your specific plant will be given so you can get more detailed instructions about the history, details, and care instructions for your plant.
 
 _3. Make a new storyboard, diagram and/or script based on these reflections._
 
-_Script: _
+**_Script: _**
 
-** Red light sensor is on: Plant needs care **
+** Yellow light sensor is on: Plant needs care **
 
-** Maggie sees the red light and walks closer toward the plant. As Maggie draws near, the camera and a motion detector collectively sense Maggie's presence and Planty begins to talk **
+** Maggie sees the yellow light and walks closer toward the plant. As Maggie draws near, the camera and a motion detector collectively sense Maggie's presence and Planty begins to talk **
 
 Planty: "Hi Maggie, Good morning! Thanks for noticing I need a bit of care today."
 
-Maggie: "Hi Planty -- 
+Maggie: "Hi Planty -- what do you neet right now?"
+
+Planty: "I need to be watered for 4 seconds and pet for some care!"
+
+_Maggie waters plant -- *countdown shows up on screen*_
+
+Planty: "Thanks for watering me for 4 seconds! Now pet me!"
+
+_Maggie presses button and Planty shows a smiley face on the screen_
+
+Planty: "I am happy now, thanks! For more information, scan the QR code to learn more about me!"
+
+_Maggie walks away and Planty can sense this with his motion detector_
+
+Planty: "Bye Maggie! 
 
 ## Prototype your system
 
 The system should:
-* use the Raspberry Pi 
-* use one or more sensors
-* require participants to speak to it. 
+*** use the Raspberry Pi:** 
+- Display Smiley Face on the Screen
+- Displays Visual Representation of Spoken text by Planty on the screen for those who are hard of hearing
+- Use of Light: Yellow Light when Planty Needs Water, Blue Light when Planty is OK
+- Allows button presses to pet/cuddle Planty
+*** use one or more sensors: ** Microphone, Camera & motion sensor, 
+*** require participants to speak to it:**  Maggie can speak to Planty and Planty can respond and understand
 
 *Document how the system works*
 
-*Include videos or screencaptures of both the system and the controller.*
+1. User walks toward Planty
+2. Planty's motion sensors pick up movement and Planty emits a glowing light: Blue or yellow depending on its current conditions
+3. Planty speaks to the user as it approaches and also displays its spoken text on the screen
+4. User takes care of Planty: Waters for a certain amount of time until Planty's hydration sensor kicks in and is full
+5. User pets Planty: Planty can tell how long the button is pressed and if it's not enough asks for more pets
+
+*Include videos *
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -229,6 +253,8 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
+
+
 
 ### What worked well about the controller and what didn't?
 
