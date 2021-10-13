@@ -209,7 +209,7 @@ _3. Make a new storyboard, diagram and/or script based on these reflections._
 
 Planty: "Hi Maggie, Good morning! Thanks for noticing I need a bit of care today."
 
-Maggie: "Hi Planty -- what do you neet right now?"
+Maggie: "Hi Planty -- what do you need right now?"
 
 Planty: "I need to be watered for 4 seconds and pet for some care!"
 
@@ -217,7 +217,12 @@ _Maggie waters plant -- *countdown shows up on screen*_
 
 Planty: "Thanks for watering me for 4 seconds! Now pet me!"
 
-_Maggie presses button and Planty shows a smiley face on the screen_
+_Maggie presses button and Planty speaks again_
+
+Planty: "I need more pets, not enough!"
+
+_Maggie presses button again and this time Planty shows a smiley face on the screen
+
 
 Planty: "I am happy now, thanks! For more information, scan the QR code to learn more about me!"
 
