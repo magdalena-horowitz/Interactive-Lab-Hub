@@ -233,16 +233,25 @@ Planty: "Bye Maggie!
 ## Prototype your system
 
 The system should:
-*** use the Raspberry Pi:** 
+###### use the Raspberry Pi:
 - Display Smiley Face on the Screen
 - Displays Visual Representation of Spoken text by Planty on the screen for those who are hard of hearing
 - Use of Light: Yellow Light when Planty Needs Water, Blue Light when Planty is OK
 - Allows button presses to pet/cuddle Planty
-*** use one or more sensors: ** 
+
+
+
+###### use one or more sensors
+
 - Microphone
 - Camera 
 - Motion sensor
-*** require participants to speak to it:**  
+- Touch Sensor (for watering and petting actions)
+
+
+###### require participants to speak to it:
+
+
 - Maggie can speak to Planty
 - Planty can listen, respond, and understand
 
