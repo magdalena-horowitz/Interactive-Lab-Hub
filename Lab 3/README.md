@@ -273,6 +273,11 @@ Answer the following:
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
 
+- Bad
+-  Overactive Motion Sensor
+- Good
+- Back and Forth conversation
+- Incentive and personification
 
 
 ### What worked well about the controller and what didn't?
