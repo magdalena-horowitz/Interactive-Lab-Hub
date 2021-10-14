@@ -268,8 +268,11 @@ The system should:
 ### Video Included Here: 
 
 #### Put Audio all the way up for detailed narration and demo 
+If Sound or video is not working: watch original on Google Drive: https://drive.google.com/file/d/1S3WwQDjJGc3NUigAvvnl-B_Q5jvwnfSm/view?usp=sharing
 
-https://user-images.githubusercontent.com/27168450/137241312-e3cd97ba-963d-47c2-8ff6-cbf8aa566f54.mp4
+
+https://user-images.githubusercontent.com/27168450/137242523-17a82fc2-9054-46ff-b779-4405eb1eb202.mp4
+
 
 
 ## Test the system
