@@ -265,31 +265,49 @@ The system should:
 
 *Include videos *
 
+### Video Included Here: 
+
+#### Put Audio all the way up for detailed narration and demo 
+
+https://user-images.githubusercontent.com/27168450/137241312-e3cd97ba-963d-47c2-8ff6-cbf8aa566f54.mp4
+
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 Answer the following:
-
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
 
 - Bad
--  Overactive Motion Sensor
+
+-  Overactive Motion Sensor: 
+Once people were interacting with the system, they realized that even if they came near the plant, it would talk to them and nudge them for care. 
+
+- Strong speech:
+Users realized they needed to speak relatively forcefully for Planty to pick up their speech accurately. 
+One solution to this would be placing more microphones around the device. 
+
+- Users really liked the light emanating from Planty but it wasn't as bright during the day
+
+
 - Good
-- Back and Forth conversation
+- Back and Forth conversation was very stimulating, users really liked that they could ask Planty if they were giving it enough care. They also liked that Planty validated them when it was enough or asked for more if Planty needed more care. 
 - Incentive and personification
+Users liked that Planty has a pet-like personality and was very cute. 
 
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+Petting planty with the touch of a button was not as sensitive as it could be, and voice controlling the interaction with Planty could use more accuracy. Adding additional sensors for surround sound, speaker integration, and a more personable voice would all allow the control of the device to be more customizable and cuter.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+When wizarding Planty, I realized that there are so many stimulating senses that are occuring all at once: sound, movement, response, and more! When designing a more autonomous version of the system, one thing to think about would be using AI to predict how the user is going to interact with Planty next. Planty could learn the users behavior and even wake up the user in the morning by talking to them. 
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+Planty could record and collect common patterns, speech patterns, and habits of the user. Not only would the user look after the plant as a pet, but the pet would look after the owner. If any abnormalities or speech patterns change, or if there's silence or lack of activity in the house, Planty could alert the authorities and keep an eye on any safety concerns. 
 
+Planty could also sense opening doors, change in natural vs. artificial light, other pets around the house, babies crying, and learn to stay silent when work-from-home meetings would take place.
