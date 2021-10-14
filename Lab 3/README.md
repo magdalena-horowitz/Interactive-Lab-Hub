@@ -230,6 +230,9 @@ _Maggie walks away and Planty can sense this with his motion detector_
 
 Planty: "Bye Maggie! 
 
+![image](https://user-images.githubusercontent.com/27168450/137243731-7bd95e5c-53f0-4869-953c-47286d770981.png)
+
+
 ## Prototype your system
 
 The system should:
@@ -272,6 +275,7 @@ The system should:
 
 watch original on Google Drive: https://drive.google.com/file/d/1S3WwQDjJGc3NUigAvvnl-B_Q5jvwnfSm/view?usp=sharing
 
+![image](https://user-images.githubusercontent.com/27168450/137243013-3e499fec-6fac-4e59-87e2-4a7210ca3091.png)
 
 
 
