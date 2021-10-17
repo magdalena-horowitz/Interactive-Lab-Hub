@@ -290,13 +290,24 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+The tricky part is balancing the amount of hardware on the device to increase functionality and interaction with the actual weight and usability of the device itself. The mug may need to need to be larger, taller, or a little heavier to implement all the desired features.
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+
+We decided that design 5 would most likely incorporate the most features while maintaining usability. 
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 Build a cardbord prototype of your design.
 
+** See photo ** 
+
 **\*\*\*Document your rough prototype.\*\*\***
+
+See the pictures below for the rough prototype wizarded with current materials. 
+The RGB sensor at the bottom of the mug will be encased in class, sealed off from liquid damage, but will still be able to view the color of the liquid through a glass material.
+
+The distance sensor will remain on the side of the mug and the display screen will sit on the side. 
 
 
 
