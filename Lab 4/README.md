@@ -76,6 +76,7 @@ F) [Record the interaction](#part-f)
 - snake game with the joystick
 
 
+# Lab Partners: Magdalena Horowitz (myh26) and Lauren Tran (lat89)
 ## Coffee Idea brainstorm: 
 - Light/Proximity/Gesture sensor: tell what color the coffee is
 - sensor could be on the milk carton
