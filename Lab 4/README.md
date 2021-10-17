@@ -300,7 +300,12 @@ We decided that design 5 would most likely incorporate the most features while m
 
 Build a cardbord prototype of your design.
 
+** See photos: ** 
+![image](https://user-images.githubusercontent.com/27168450/137638692-0421af01-a4d9-4474-b43b-33b0ca453ee1.png)
+![image](https://user-images.githubusercontent.com/27168450/137638698-882a189a-5685-42e1-99db-3bef7b55c707.png)
+
 ** See photo ** 
+
 
 **\*\*\*Document your rough prototype.\*\*\***
 
