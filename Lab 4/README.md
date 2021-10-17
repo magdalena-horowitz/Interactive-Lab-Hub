@@ -68,6 +68,23 @@ F) [Record the interaction](#part-f)
 
 ## The Report (Part 1: A-D, Part 2: E-F)
 
+
+# Lab ideas Brainstorming Pad: 
+- alarm clock that turns off when it senses you've turned the light on
+- coffee machine that tells whne your coffee has the right amount of milk based on the color
+- proximity sensor for finding your phone
+- snake game with the joystick
+
+
+## Coffee Idea brainstorm: 
+- Light/Proximity/Gesture sensor: tell what color the coffee is
+- sensor could be on the milk carton
+- could be on the coffee maker
+- could be an independent device like a phone camera
+- could be on a mug Capacitive Sensing, a.k.a. Human-Twizzler Interaction: gives user a warning that the cup is hot if they touch it too soon Distance Sensor:
+- makes sure the user doesn't forget their cofee when they leave
+
+
 ### Part A
 ### Capacitive Sensing, a.k.a. Human-Twizzler Interaction 
 
@@ -193,13 +210,20 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+Durability of the sensors: one problem is that the sensors need to be very near to hot coffee which could cause problems if the sensor is not water or heat proof. Our first design has the color sensor right on the inside side of the mug which could be very accident prone. To possible account for this, we created another design with the color sensor on the bottom of the mug under a glass or otherwise clear screen that may do a better job of protecting the sensor from hot coffee. This also would prevent the sensor from getting in the way of someone drinking the coffee. It would be difficult to physically protptype to test the durability of the sensors because we do not want to break the sensor. However, we could use a real mug and something disposable such as a piece of paper towel that acts as a sensor and see if the fake sensor gets wet in our prototype.
+
+Weight: Although mugs are typically heavy, adding screens and sensors coudl make the mug more heavy. Our first sketch had the color sensor and display on the mug but our next designs have the display as a separate device that could ideally connect wirelessly to the mug to display the coffee's readiness separate from the mug itself. If the mug is too bulky with all of the sensors, it could take away from the appeal of the mug. To prototype this, we could try using different real mugs and adding the sensors and testing of users feel comfortable lifting the mug. We could try using lightweight plastic mugs and adding the sensors and seeing if the weight is comprable to the weight of a heavier ceramic mug.
+
+Ability to drink from the mug: The sensors could possible hinder people's ability to drink from the mug if they are not placed correctly. If the screen is too close to the handle or the sensor is too close to the lip of the mug, it would be annoying to drink or hold the mug around the sensor so we will need to take into account the most natural and comfortable way for people to hold mugs and build our sensors aroaund the natural grasp. To test this, we could create a cardboard mug or use a real mug and see how people hold the mug. We could then add the sensors to the mug and see if they change the way people grasp the mug or otherwise get in the way of the person's natural handhold.
+
+Ability to wash the mug: The ability to use a dishwasher on a mug is a salient consideration when people buy mugs so it is improtant that the sensors are able to be washed in a dish washer without the sensors prevent spaces from getting clean. To test this, we could create fake sensors and add rthem to the mug and see if the mug is still able to be cleaned with the fake sensors. Prototopying this problem is difficult similar to the first problem because we don't want to actually put the sensors through the dishwasher but by creating fake sensors out of dish washer safe materials, we could mimic the shape of the mug with sensors and see how well the prototype holds up in the dishwasher.
+
+**\*\*\*Pick one of these designs to prototype.\*\*\***
 Some of the sensing ideas seemed cool at first but raised a couple of questions. For the gesture sensing option, we'd need to find some way to connect the coffee mug device to the actual coffee maker itself. There would be quite a lot of connectivity issues that might be solved through bluetooth, wires (not ideal), or NFC communication. In order to add milk, sugar, etc based on a gesture, the cups sensors would have to send the signal back to the coffee machine, or we'd also have to implement sensors onto the coffee making machine itself.
 
 Using the distance sensor to greet a user in the morning might end up being intrusive and annoying. While it is good to remind a user to make coffee in the morning, if someone wants to wake up discreetly or wants to practice yoga or meditate in their living room/kitchen area, they would not want a coffee device speaking to them every time they moved close to it. 
 
 Finally, the sensors themselves are relatively big so finding a way to incorporate them into the coffee mug while hiding them but also allowing them to function is a bit tricky. We thought of encasing the light sensor in a internal glass inner layer, so it is water resistant and is protected from all liquids. The distance sensor could be placed on the handle, but it too must be protected from damage while still allowing access to its surroundings to perform its sensing capabilities.
-
-**\*\*\*Pick one of these designs to prototype.\*\*\***
 
 We decided that options 4 and 5 would work best with our coffee mug and would provide the most interactive and useful user experience. By determining the RGB content of the coffee color, the device would be unique and be able to add value by telling the user if the coffee color is related or matches the user's preference for coffee. This way, the user would always know when to add more milk to get the perfect cup of coffee every time. 
 
@@ -245,6 +269,23 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+# 1. 
+![image](https://user-images.githubusercontent.com/27168450/137631800-c2f6dffa-d4ad-4505-ac0f-362df7507680.png)
+
+# 2.
+![image](https://user-images.githubusercontent.com/27168450/137631806-18100f79-b903-4af5-a14b-428c0a987bd3.png)
+
+# 3.
+![image](https://user-images.githubusercontent.com/27168450/137631810-500a0b15-2635-4bda-8948-f021d3c28fad.png)
+
+# 4.
+![image](https://user-images.githubusercontent.com/27168450/137631814-601e30b2-13cf-44b6-b1b3-11f111661c09.png)
+
+
+# 5.
+![image](https://user-images.githubusercontent.com/27168450/137631821-b5bbd26a-c574-42b7-8cb6-90f72e2cb432.png)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
@@ -255,6 +296,17 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+
+
+
+# ** ACTUAL PROTOTYPE: See the progression of coffee shades that the device will detect: ** 
+![image](https://user-images.githubusercontent.com/27168450/137631853-c03db935-238d-4f6c-b4f4-1c70476e4db9.png)
+
+![image](https://user-images.githubusercontent.com/27168450/137631861-66fcc24d-625e-463e-aeb1-259dbfa44224.png)
+
+![image](https://user-images.githubusercontent.com/27168450/137631871-532ac86a-ea51-4d5f-a117-9c0d33390626.png)
+![image](https://user-images.githubusercontent.com/27168450/137631877-00518a11-795f-4510-aba4-fd2ceb408a67.png)
+![image](https://user-images.githubusercontent.com/27168450/137631888-ab1169ca-eaa9-4eac-b5c9-96a62a364cd1.png)
 
 LAB PART 2
 
