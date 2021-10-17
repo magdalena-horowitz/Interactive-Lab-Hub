@@ -69,14 +69,13 @@ F) [Record the interaction](#part-f)
 ## The Report (Part 1: A-D, Part 2: E-F)
 
 
-# Lab ideas Brainstorming Pad: 
+###  Lab Partners: Magdalena Horowitz (myh26) and Lauren Tran (lat89)
+## Lab ideas Brainstorming Pad: 
 - alarm clock that turns off when it senses you've turned the light on
 - coffee machine that tells whne your coffee has the right amount of milk based on the color
 - proximity sensor for finding your phone
 - snake game with the joystick
 
-
-# Lab Partners: Magdalena Horowitz (myh26) and Lauren Tran (lat89)
 ## Coffee Idea brainstorm: 
 - Light/Proximity/Gesture sensor: tell what color the coffee is
 - sensor could be on the milk carton
