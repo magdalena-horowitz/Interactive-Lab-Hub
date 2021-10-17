@@ -175,26 +175,35 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
-1.
+# 1.
 ![image](https://user-images.githubusercontent.com/27168450/137630850-3f1125f3-07a5-4e91-9b8f-9790497d4c8e.png)
 
-2.
+# 2.
 ![image](https://user-images.githubusercontent.com/27168450/137630860-d5e2fb74-97f8-43a5-a350-81cdb9bd1a1b.png)
 
-3.
+# 3.
 ![image](https://user-images.githubusercontent.com/27168450/137630875-59f083b3-3881-4492-a4e3-40f56571ed37.png)
 
-4.
+# 4.
 ![image](https://user-images.githubusercontent.com/27168450/137630879-f0af9fa1-f612-4f3f-ace4-36c6bea8260d.png)
 
-5.
+# 5.
 ![image](https://user-images.githubusercontent.com/27168450/137630889-51902afe-977e-46f5-9e68-3632dd72f480.png)
 
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+Some of the sensing ideas seemed cool at first but raised a couple of questions. For the gesture sensing option, we'd need to find some way to connect the coffee mug device to the actual coffee maker itself. There would be quite a lot of connectivity issues that might be solved through bluetooth, wires (not ideal), or NFC communication. In order to add milk, sugar, etc based on a gesture, the cups sensors would have to send the signal back to the coffee machine, or we'd also have to implement sensors onto the coffee making machine itself.
+
+Using the distance sensor to greet a user in the morning might end up being intrusive and annoying. While it is good to remind a user to make coffee in the morning, if someone wants to wake up discreetly or wants to practice yoga or meditate in their living room/kitchen area, they would not want a coffee device speaking to them every time they moved close to it. 
+
+Finally, the sensors themselves are relatively big so finding a way to incorporate them into the coffee mug while hiding them but also allowing them to function is a bit tricky. We thought of encasing the light sensor in a internal glass inner layer, so it is water resistant and is protected from all liquids. The distance sensor could be placed on the handle, but it too must be protected from damage while still allowing access to its surroundings to perform its sensing capabilities.
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+We decided that options 4 and 5 would work best with our coffee mug and would provide the most interactive and useful user experience. By determining the RGB content of the coffee color, the device would be unique and be able to add value by telling the user if the coffee color is related or matches the user's preference for coffee. This way, the user would always know when to add more milk to get the perfect cup of coffee every time. 
+
+Option 5 would also be extremely useful, because sometimes when you pour a cup of coffee, you step away for a minute to do other tasks as it's brewing. With the distance sensor, the device could warn you that you are getting too far away and remind you to pick up and drink your cup of coffee. No more cups of coffee wasted!
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
