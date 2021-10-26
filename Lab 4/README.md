@@ -132,13 +132,19 @@ Option 5 would also be extremely useful, because sometimes when you pour a cup o
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-The tricky part is balancing the amount of hardware on the device to increase functionality and interaction with the actual weight and usability of the device itself. The mug may need to need to be larger, taller, or a little heavier to implement all the desired features.
+Display: One difficult part to figure out was where to put the display on the mug to make it easy to read. Our first sketch has the display on the side which we thought was a pretty design but may be difficult for the user to read since the mug must be set on its bottom (rather than its side) when the mug is used. We also figured it may be hard to read the device if the display is on the side incase people are holding the mug and covering the display which led us to the idea of having a projected display. We also played with the idea of using a separate device with a display as well.
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+Color sensor: Our sketches also brought up the question of how the color sensor could see the color of the coffee without actually being in contact with the cofee which could be dangerous. We did not want the sensor right in the device so we found out it was probably best to use a clear glass mug similar to a mason jar to place the color sensor on the outside while still being able to sense through the mug the color of the coffee.
 
-We decided that design 5 would most likely incorporate the most features while maintaining usability. 
+Weight: As we were drawing the sketches, there were many sensors that we originally wanted in the device which may greatly increase the weight of the mug. The tricky part is balancing the amount of hardware on the device to increase functionality and interaction with the actual weight and usability of the device itself.
 
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+The mug may need to need to be larger, taller, or a little heavier to implement all the desired features.
+
+***Pick one of these display designs to integrate into your prototype.***
+
+We decided that design 5 would most likely incorporate the most features while maintaining usability.
+
+***Explain the rationale for the design.*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 Build a cardbord prototype of your design.
 
@@ -172,17 +178,34 @@ LAB PART 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
-### Part E (Optional)
-### Servo Control with Joystick
+### Part E (Optional) - Servo Control with Joystick (N/A)
 
 ### Part F
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 
-#### * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+See images here during the build process of Part 2:
+![IMG_7394](https://user-images.githubusercontent.com/27168450/138793211-733f60d3-659b-404c-91a8-6da4a5e9254d.JPG)
+![image](https://user-images.githubusercontent.com/27168450/138793231-eddf8884-9551-479a-9f8c-f1555e96392a.png)
 
+
+##### Prototype Final Summary
+#### * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+To show what the device will look like, we created a paper prototype, a paper/pi prototype, and a physical prototype. Because we wanted our display to have color, we were unable to use the mini scren for a functional prototype and needed to use the large screen that attached directly onto the pi which was difficult to integrate into a 3d physical prototype. To illutrate the shape of the device, we found it was better to create a fully paper prototype to be able to mimic what the mug would look like with the sensors seamlessly integrated. This prototype was unable to capture the weight of the prototype but gave a better visual as to the functionalities and overall look of the device. Because we wanted to use color, we used the larger screen to create a prototype with paper and the pi. This allowed us to show how the device dislay would look built into the mug. The bulkiness of the pi made it difficult to create a mug shape around it so we decided to make this prototype 2d. Our last physical prototype made with the glass mason jar and the sensors attached illustrates the weight and feel of the prototype. We wanted to be able to mimic the weight of a normal sized mug with the attached sensors. This prototype did not look exactly like our intended device but gave the feel of the device to users.
 
 #### * "Works like": shows what the device can do
 #### * "Acts like": shows how a person would interact with the device
+To show how the device works and how users should interact with the device, we filmed these videos that showcased the 3 features of the mug. The final video shows how the coffee mug reminds users to come back if they venture too far away from a hot cup of cofee. It also shows how users can input the desired color of their coffee and how the device will prompt users to continue adding milk to their coffee until it reaches the desired color.
+
+#### See the video uploaded on Google Drive for a FULL DEMO (Put sound on to hear VOICE)
+
+https://drive.google.com/file/d/1p_5ByBbW8o6k4rR-gWPsjizWsC_Dx2nk/view?usp=sharing
+
+![image](https://user-images.githubusercontent.com/27168450/138792991-085b1db9-974c-4932-b5cd-683043f5ec62.png)
+
+![image](https://user-images.githubusercontent.com/27168450/138793253-e41a6e77-86a3-4a16-be8c-45e5bfc5204b.png)
+![image](https://user-images.githubusercontent.com/27168450/138793264-d7335e47-fb75-4d82-b961-ac8d0cbf6101.png)
+
+
 
