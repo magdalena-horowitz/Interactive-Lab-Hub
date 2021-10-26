@@ -178,6 +178,28 @@ LAB PART 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
+##### Feedback we got from Part 1:
+"I thought it was fun that all your part c sketches were related to coffee, and I think you did a great job of discussing the considerations for your physical prototype and potential ideas to address them. For the color sensor, it would be good to make sure the sensor can distinguish between background color (since the mug is translucent) vs coffee. For the distance sensor, a slight adjustment or addition to the idea could be to have the device alert you that the coffee is done brewing if you are getting too far away."
+
+- Sara Wang, Oct 19 at 2:54pm
+
+"Cool ideas, I also thought it was funny how all of your initial ideas were related to coffee. My main concern about the implementation of the idea is the close proximity of the sensors to liquid, which it looks like you gave some thought to in your "raised questions" section"
+
+- Alexander Bradley Kluver, Oct 20 at 6:24pm
+
+" I think this is a really interesting idea. It can help people control their coffee and remind people to pick coffee up, which is useful and convinient. My first concern is that if putting the color detection sensor under the bottom, whether it will only detect black instead of the real color of the coffee. Maybe it can be on the side of the bottle. And my second concern is that the distance sensor can only detect people in front of it, namely, if the user is on the side of the bottle, even if she is close to the bottle, the sensor still can not detect her. Overall, it's a great idea!" 
+
+- Tianyun Zou, Oct 21 at 12:18am
+
+" It's very creative, but a lot going on! Might want to focus on on just making one or two features. But it's a great idea!" 
+
+- Brandon Kyle Newman, Oct 21 at 10:05am
+
+**
+Based on the feedback we received, we decided to focus on two sensors, try to place them around the cup and not too close to the liquid. In future implementations, we would try double insulating the glass and putting the sensors in the middle layer, protected from the heat of the liquid. Additionally, we would implement smaller distance sensors all around the cup so it could detect the user from every angle. Finally, the color sensor would no longer be on the bottom, it would be in that inner insulated layer that does not touch the heated portion of the mug and it would reside on the front side of the mug behind the screen.
+**
+
+
 ### Part E (Optional) - Servo Control with Joystick (N/A)
 
 ### Part F
@@ -188,6 +210,11 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 See images here during the build process of Part 2:
 ![IMG_7394](https://user-images.githubusercontent.com/27168450/138793211-733f60d3-659b-404c-91a8-6da4a5e9254d.JPG)
 ![image](https://user-images.githubusercontent.com/27168450/138793231-eddf8884-9551-479a-9f8c-f1555e96392a.png)
+![image](https://user-images.githubusercontent.com/27168450/138793253-e41a6e77-86a3-4a16-be8c-45e5bfc5204b.png)
+![image](https://user-images.githubusercontent.com/27168450/138793264-d7335e47-fb75-4d82-b961-ac8d0cbf6101.png)
+
+
+
 
 
 ##### Prototype Final Summary
@@ -200,12 +227,7 @@ To show how the device works and how users should interact with the device, we f
 
 #### See the video uploaded on Google Drive for a FULL DEMO (Put sound on to hear VOICE)
 
-https://drive.google.com/file/d/1p_5ByBbW8o6k4rR-gWPsjizWsC_Dx2nk/view?usp=sharing
-
+https://drive.google.com/file/d/17R9gVht4VkaXWXcz3chjbj25huugX8Mb/view?usp=sharing
 ![image](https://user-images.githubusercontent.com/27168450/138792991-085b1db9-974c-4932-b5cd-683043f5ec62.png)
-
-![image](https://user-images.githubusercontent.com/27168450/138793253-e41a6e77-86a3-4a16-be8c-45e5bfc5204b.png)
-![image](https://user-images.githubusercontent.com/27168450/138793264-d7335e47-fb75-4d82-b961-ac8d0cbf6101.png)
-
 
 
