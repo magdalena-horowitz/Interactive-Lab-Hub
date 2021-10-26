@@ -195,7 +195,7 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 - Brandon Kyle Newman, Oct 21 at 10:05am
 
-#### ** Based on the feedback we received, we decided to focus on two sensors, try to place them around the cup and not too close to the liquid. In future implementations, we would try double insulating the glass and putting the sensors in the middle layer, protected from the heat of the liquid. Additionally, we would implement smaller distance sensors all around the cup so it could detect the user from every angle. Finally, the color sensor would no longer be on the bottom, it would be in that inner insulated layer that does not touch the heated portion of the mug and it would reside on the front side of the mug behind the screen. **
+## ** Based on the feedback we received, we decided to focus on two sensors, try to place them around the cup and not too close to the liquid. In future implementations, we would try double insulating the glass and putting the sensors in the middle layer, protected from the heat of the liquid. Additionally, we would implement smaller distance sensors all around the cup so it could detect the user from every angle. Finally, the color sensor would no longer be on the bottom, it would be in that inner insulated layer that does not touch the heated portion of the mug and it would reside on the front side of the mug behind the screen. **
 
 
 ### Part E (Optional) - Servo Control with Joystick (N/A)
