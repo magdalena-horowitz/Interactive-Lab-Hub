@@ -116,9 +116,9 @@ Additionally, thresholds such as picking up a phone for 1 second should not set 
 
 ![image](https://user-images.githubusercontent.com/27168450/139728222-30d2f593-d3cd-46d1-9563-c0f07bd89da6.png)
 
-<img src="https://user-images.githubusercontent.com/27168450/139729551-fc789fd2-3302-43b8-a921-3affa128354f.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/27168450/139729551-fc789fd2-3302-43b8-a921-3affa128354f.png" width="300" height="300">
 # Versus...
-<img src="https://user-images.githubusercontent.com/27168450/139729343-6ac23f54-88f0-42fe-804e-e79431a5e274.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/27168450/139729343-6ac23f54-88f0-42fe-804e-e79431a5e274.png" width="300" height="300">
 
 
 
@@ -134,9 +134,23 @@ For example:
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+- There are several uncertainties that come into play when using this system. From the first basic interaction -- determining whether a user is paying attention based on whether they have a phone object in their hand or not -- may be misleading. If the model isn't trained correctly, other rectangular objects are mistaken for a phone, the user has pictures of phones on his wall, etc, could trigger a unecessary/invalid alert. Additionally, the user could be aware of these uncertainties and take advantage of them. For example they could turn off their video, find a digital background, or disguise the back of their phone with a case or hide it behind another object. 
+
+2. How bad would they be impacted by a miss classification?
+
+- Without some sort of verification system, a user could falsely be reported as not paying attention in class and get points taken off his grade. At further iterations, when we detect for confusion (knit eyebrows), feedback (too slow/too fast), exhaustion (yawning/sleeping), if there are misclassifications, then the professor will wrongfully adjust his lectures according to the feedback. This would result in a bad class experience for both the professors and the students.
+
+3. How could change your interactive system to address this?
+
+- Intensive training measures can be implemented with different scenes, varying models, and lots of variation.
+- ...
+
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+- aksdjf;
+- 
 
 ### Part D
 ### Characterize your own Observant system
