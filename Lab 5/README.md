@@ -101,18 +101,14 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
 #### 1. contours.py
-![image](https://user-images.githubusercontent.com/27168450/139714372-6763c569-8e16-44ee-b524-973b46219051.png) width="100" height="100">
-<img src="https://user-images.githubusercontent.com/27168450/139714372-6763c569-8e16-44ee-b524-973b46219051.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/27168450/139714372-6763c569-8e16-44ee-b524-973b46219051.png" width="300" height="300">
 #### 2. face-detection.py
-![image](https://user-images.githubusercontent.com/27168450/139714605-4881b038-34be-4aac-8d58-2a7c70229114.png)
-<img src="https://user-images.githubusercontent.com/27168450/139714605-4881b038-34be-4aac-8d58-2a7c70229114.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/27168450/139714605-4881b038-34be-4aac-8d58-2a7c70229114.png" width="300" height="300">
 #### 3. optical_flow.py
-![image](https://user-images.githubusercontent.com/27168450/139714984-400da6ee-b6b2-4622-9122-31f8daec0813.png)
-<img src="https://user-images.githubusercontent.com/27168450/139714984-400da6ee-b6b2-4622-9122-31f8daec0813.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/27168450/139714984-400da6ee-b6b2-4622-9122-31f8daec0813.png" width="300" height="300">
 
 #### 4. detect.py
-![image](https://user-images.githubusercontent.com/27168450/139715136-dc95631b-826e-4888-9016-da3a9ee1d8a8.png)
-<img src="https://user-images.githubusercontent.com/27168450/139715136-dc95631b-826e-4888-9016-da3a9ee1d8a8.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/27168450/139715136-dc95631b-826e-4888-9016-da3a9ee1d8a8.png" width="300" height="300">
 
 
 
