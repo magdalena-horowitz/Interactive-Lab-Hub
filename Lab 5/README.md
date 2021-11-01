@@ -116,9 +116,7 @@ Additionally, thresholds such as picking up a phone for 1 second should not set 
 
 ![image](https://user-images.githubusercontent.com/27168450/139728222-30d2f593-d3cd-46d1-9563-c0f07bd89da6.png)
 
-<img src="https://user-images.githubusercontent.com/27168450/139729551-fc789fd2-3302-43b8-a921-3affa128354f.png" width="300" height="300">
-# Versus...
-<img src="https://user-images.githubusercontent.com/27168450/139729343-6ac23f54-88f0-42fe-804e-e79431a5e274.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/27168450/139729551-fc789fd2-3302-43b8-a921-3affa128354f.png" width="200" height="300"> Versus... <img src="https://user-images.githubusercontent.com/27168450/139729343-6ac23f54-88f0-42fe-804e-e79431a5e274.png" width="200" height="300">
 
 
 
