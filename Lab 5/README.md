@@ -60,11 +60,11 @@ Contours would definitely be usef
 
 ## Analysis of Sense-Making Algorithms:
 
-###### 1. 
+###### 1. Contours can be used to detect certain objects in images. A design case using contours could be detecting how many wood blocks (or any object) are in an image. We can see how many contours connect into geometric shapes at any given time, count them, then display them to the user. This can be extended into more useful applications, such as quick counting inventory in warehouses.
 
 ###### 2. Face detection would be extremely useful for this design because the algorithm tracks when a person is present or if they've stepped away from their computer to get food, watch TV, or not attend the lecture. We can also use this to detect whether the student is closing their eyes, getting tired, or is distracted. Finally, we could use this for in-class "zoom" exams to see whether students are consulting other students. 
 
-###### 3. 
+###### 3. Optical flows could work well in analyzing foot traffic in front of stores to see which window displays, signages, or shops are interesting to onlookers. An implementation could be to mount a camera in front of the store, measure and to measure the approximate speed of the people passing through. If there is a large enough to decrease in speed then one can assume that someone stopped to look into the shop; these people would be added as a data point in time series data.
 
 ###### 4. Object detection is great because it can tell whether a student is picking up their phone during zoom or any other distracting device. We can use this for minimizing distractions and setting filters for certain objects such as cellphones, food, etc. If a student is eating or texting during class, this can be noted and sent to the professor.
 
@@ -107,7 +107,13 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
+![image](https://user-images.githubusercontent.com/27168450/139728222-30d2f593-d3cd-46d1-9563-c0f07bd89da6.png)
+
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+
+To experiment with this interaction, we decided to test out object detection using the class of phones. If a face and a phone are detected in the same frame, this should trigger an alert and take note of the time-code and user.
+
+We will be testing this out using various different objects: Coffee Cup, etc...
 
 ### Part C
 ### Test the interaction prototype
@@ -115,9 +121,9 @@ Try out different interaction outputs and inputs.
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+2. When does it fail?
+3. When it fails, why does it fail?
+4. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
