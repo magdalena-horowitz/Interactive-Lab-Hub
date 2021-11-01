@@ -107,13 +107,20 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
-![image](https://user-images.githubusercontent.com/27168450/139728222-30d2f593-d3cd-46d1-9563-c0f07bd89da6.png)
-
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
-To experiment with this interaction, we decided to test out object detection using the class of phones. If a face and a phone are detected in the same frame, this should trigger an alert and take note of the time-code and user.
+To experiment with this interaction, we decided to test out object detection using the class of phones. If a face and a phone are detected in the same frame, this should trigger an alert and take note of the time-code and user. This is the first step toward detecting if the user is engaged during class hours and is paying attention to the material on the screen and staying active during the lecture. 
 
-We will be testing this out using various different objects: Coffee Cup, etc...
+We will be testing this out using various different objects: Coffee Cup, banana, etc... Ideally, the alert should not be triggered if a user were to pick up a cup to drink some water during class. 
+Additionally, thresholds such as picking up a phone for 1 second should not set an alarm, but should be recorded as a single "instance" as the phone may have shown a brief notification on the screen. After several "instances" or an extended period of time (i.e. greater than 3 minutes), the interaction can be recorded as a violation and a notification can be sent to the professor.
+
+![image](https://user-images.githubusercontent.com/27168450/139728222-30d2f593-d3cd-46d1-9563-c0f07bd89da6.png)
+
+<img src="https://user-images.githubusercontent.com/27168450/139729551-fc789fd2-3302-43b8-a921-3affa128354f.png" width="100" height="100">
+# Versus...
+<img src="https://user-images.githubusercontent.com/27168450/139729343-6ac23f54-88f0-42fe-804e-e79431a5e274.png" width="100" height="100">
+
+
 
 ### Part C
 ### Test the interaction prototype
