@@ -88,6 +88,7 @@ Contours would definitely be usef
 #### Teachable Machines
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
+![image](https://user-images.githubusercontent.com/27168450/139731886-0596f672-4eb1-4703-a51a-f72fdfd7a4bc.png)
 
 #### Filtering, FFTs, and Time Series data. (optional)
 
