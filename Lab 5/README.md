@@ -8,10 +8,11 @@
 1. Test, characterize your interactive device. Show faults in the detection and how the system handled it.
 
 ## Overview
-Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
+#### Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
 ---
-## Brainstorming Ideas:
-****Our idea is to make zoom for teachers easier and important lecture materials readily available after the class. This would include, but not be limited to:****
+## Brainstorming Ideas for Our Version:
+
+Our idea is to make zoom for teachers easier and important lecture materials readily available after the class. This would include, but not be limited to:
 
 _Face Detection_
 
