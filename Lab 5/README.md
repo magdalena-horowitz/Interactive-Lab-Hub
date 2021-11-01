@@ -102,15 +102,15 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 #### 1. contours.py
 <img src="https://user-images.githubusercontent.com/27168450/139714372-6763c569-8e16-44ee-b524-973b46219051.png" width="300" height="300">
+
 #### 2. face-detection.py
 <img src="https://user-images.githubusercontent.com/27168450/139714605-4881b038-34be-4aac-8d58-2a7c70229114.png" width="300" height="300">
+
 #### 3. optical_flow.py
 <img src="https://user-images.githubusercontent.com/27168450/139714984-400da6ee-b6b2-4622-9122-31f8daec0813.png" width="300" height="300">
 
 #### 4. detect.py
 <img src="https://user-images.githubusercontent.com/27168450/139715136-dc95631b-826e-4888-9016-da3a9ee1d8a8.png" width="300" height="300">
-
-
 
 
 #### MediaPipe
@@ -146,6 +146,14 @@ Each of the installs will take a while, please be patient. After successfully in
 ```
 
 Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
+
+#### Testing it out :
+**FUll gesture vs pinching half and pinging all the way
+**
+<img src="https://user-images.githubusercontent.com/27168450/139718977-2cbd4978-a480-4f64-86a4-259304f77672.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/27168450/139719031-9e12d553-53c0-48e7-898b-24d0170e9444.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/27168450/139719057-5f921421-b289-4463-90c1-ffa647e214fc.png" width="300" height="300">
+
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
