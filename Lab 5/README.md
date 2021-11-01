@@ -51,15 +51,22 @@ Contours would definitely be usef
 #### 2. face-detection.py
 <img src="https://user-images.githubusercontent.com/27168450/139714605-4881b038-34be-4aac-8d58-2a7c70229114.png" width="300" height="300">
 
-###### Face detection would be extremely useful for this design because the algorithm tracks when a person is present or if they've stepped away from their computer to get food, watch TV, or not attend the lecture. We can also use this to detect whether the student is closing their eyes, getting tired, or is distracted. Finally, we could use this for in-class "zoom" exams to see whether students are consulting other students. 
-
 #### 3. optical_flow.py
 <img src="https://user-images.githubusercontent.com/27168450/139714984-400da6ee-b6b2-4622-9122-31f8daec0813.png" width="300" height="300">
 
 #### 4. detect.py
 <img src="https://user-images.githubusercontent.com/27168450/139715136-dc95631b-826e-4888-9016-da3a9ee1d8a8.png" width="300" height="300">
 
-###### Object detection is great because it can tell whether a student is picking up their phone during zoom or any other distracting device. We can use this for minimizing distractions and setting filters for certain objects such as cellphones, food, etc. If a student is eating or texting during class, this can be noted and sent to the professor.
+
+## Analysis of Sense-Making Algorithms:
+
+###### 1. 
+
+###### 2. Face detection would be extremely useful for this design because the algorithm tracks when a person is present or if they've stepped away from their computer to get food, watch TV, or not attend the lecture. We can also use this to detect whether the student is closing their eyes, getting tired, or is distracted. Finally, we could use this for in-class "zoom" exams to see whether students are consulting other students. 
+
+###### 3. 
+
+###### 4. Object detection is great because it can tell whether a student is picking up their phone during zoom or any other distracting device. We can use this for minimizing distractions and setting filters for certain objects such as cellphones, food, etc. If a student is eating or texting during class, this can be noted and sent to the professor.
 
 #### MediaPipe
 
@@ -75,13 +82,14 @@ Contours would definitely be usef
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
+###### A position-based approach would be very useful when incorporating feedback about a zoom lecture and sending this information back to the professor. In simple mode, it could use the same pinching based percentage approach to give the teacher more precise feedback on how confident students are feeling about the lecture content. On a deeper level, it could even analyze face expressions such as furrowing one's brow (the distance between the person's eyebrows decreases), yawning (open mouth) indicates boredness/exhaustion, and relate them back to percentages of understanding. Finally, hand and body poses could be used to silently interact and provide continuous feedback and metrics about the students during the lecture either for immediate or post analysis. 
+
 
 #### Teachable Machines
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 
 #### Filtering, FFTs, and Time Series data. (optional)
-
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
 
