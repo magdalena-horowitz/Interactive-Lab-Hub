@@ -39,10 +39,14 @@ D) [Reflect](#part-d)
 ## Overview: Brainstorming Ideas:
 #### Magdalena Horowitz and Ethan Chang (Group XYZ on Canvas)
 
-**Our idea is to make zoom for teachers easier and important lecture materials readily available after the class. This would include, but not be limited to: **
--  Face Detection
+****Our idea is to make zoom for teachers easier and important lecture materials readily available after the class. This would include, but not be limited to:****
+
+_Face Detection_
+
 -    See if a student is paying attention based on face recognition and presence
-- Gesture detection: 
+
+_Gesture detection_
+
 -   When a student raises his hand, a notification would pop up quietly on the teacher's end of the screen
 -   When a student shrugs his shoulders, metrics are taken in during the 5-minute sequence and gathered. Both a notification is sent to the professor such as "10 students shrugged and are confused about this section" and a note is taken down the time sequence and topic currently being discussed so the teacher can make note of it later and post more slides and/or a discussion thread about the confusion later
 -   When a student points his finger upward, it means the professor is going to slowly - a metric/alert that captures > 40% of students recording this could warn the teacher to slow down
@@ -66,8 +70,7 @@ Contours would definitely be usef
 #### 2. face-detection.py
 <img src="https://user-images.githubusercontent.com/27168450/139714605-4881b038-34be-4aac-8d58-2a7c70229114.png" width="300" height="300">
 
-Face detection would be extremely useful for this design because the algorithm tracks when a person is present. 
-When detecting whether 
+###### Face detection would be extremely useful for this design because the algorithm tracks when a person is present or if they've stepped away from their computer to get food, watch TV, or not attend the lecture. We can also use this to detect whether the student is closing their eyes, getting tired, or is distracted. Finally, we could use this for in-class "zoom" exams to see whether students are consulting other students. 
 
 #### 3. optical_flow.py
 <img src="https://user-images.githubusercontent.com/27168450/139714984-400da6ee-b6b2-4622-9122-31f8daec0813.png" width="300" height="300">
@@ -75,6 +78,7 @@ When detecting whether
 #### 4. detect.py
 <img src="https://user-images.githubusercontent.com/27168450/139715136-dc95631b-826e-4888-9016-da3a9ee1d8a8.png" width="300" height="300">
 
+###### Object detection is great because it can tell whether a student is picking up their phone during zoom or any other distracting device. We can use this for minimizing distractions and setting filters for certain objects such as cellphones, food, etc. If a student is eating or texting during class, this can be noted and sent to the professor.
 
 #### MediaPipe
 
