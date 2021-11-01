@@ -1,23 +1,6 @@
 # Observant Systems
+#### Magdalena Horowitz and Ethan Chang (Group XYZ on Canvas)
 
-
-For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
-Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
-
-This lab will help you think through the design of observant systems, particularly corner cases that the algorithms needs to be aware of.
-
-## Prep
-
-1.  Pull the new Github Repo.
-2.  Install VNC on your laptop if you have not yet done so. This lab will actually require you to run script on your Pi through VNC so that you can see the video stream. Please refer to the [prep for Lab 2](https://github.com/FAR-Lab/Interactive-Lab-Hub/blob/Fall2021/Lab%202/prep.md), we offered the instruction at the bottom.
-3.  Read about [OpenCV](https://opencv.org/about/), [MediaPipe](https://mediapipe.dev/), and [TeachableMachines](https://teachablemachine.withgoogle.com/).
-4.  Read Belloti, et al.'s [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf).
-
-### For the lab, you will need:
-
-1. Raspberry Pi
-1. Webcam 
-1. Microphone (if you want to have speech or sound input for your design)
 
 ### Deliverables for this lab are:
 1. Show pictures, videos of the "sense-making" algorithms you tried.
@@ -26,19 +9,8 @@ This lab will help you think through the design of observant systems, particular
 
 ## Overview
 Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
-
-A) [Play](#part-a)
-
-B) [Fold](#part-b)
-
-C) [Flight test](#part-c)
-
-D) [Reflect](#part-d)
-
 ---
-## Overview: Brainstorming Ideas:
-#### Magdalena Horowitz and Ethan Chang (Group XYZ on Canvas)
-
+## Brainstorming Ideas:
 ****Our idea is to make zoom for teachers easier and important lecture materials readily available after the class. This would include, but not be limited to:****
 
 _Face Detection_
@@ -53,6 +25,14 @@ _Gesture detection_
 -   Similarly, when a student points his finger downward, it means the lecture is too fast and the professor should slow down 
 -   Keep reading Parts A - D for more details and to see the development of this idea
 
+
+A) [Play](#part-a)
+
+B) [Fold](#part-b)
+
+C) [Flight test](#part-c)
+
+D) [Reflect](#part-d)
 
 ### Part A
 ### Play with different sense-making algorithms.
