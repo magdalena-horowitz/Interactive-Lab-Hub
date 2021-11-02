@@ -88,6 +88,9 @@ Contours would definitely be usef
 #### Teachable Machines
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
+
+The teachable machines framework is essentially a convenient object detector that has an intuitive model training methods through a website interface. One application of the machine could be to recognize different fruits in a fruit salad to let the user know if there are any dietary restrictions in foods that don’t have labels. A benefit of using this over OpenCV is that TM is already preconfigured to detect anything without having to implement them yourself. MediaPipe is somewhat like this, but the model cannot be trained to detect new objects.
+
 ![image](https://user-images.githubusercontent.com/27168450/139731886-0596f672-4eb1-4703-a51a-f72fdfd7a4bc.png)
 
 #### Filtering, FFTs, and Time Series data. (optional)
@@ -126,10 +129,24 @@ Additionally, thresholds such as picking up a phone for 1 second should not set 
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
+
+1. When does it do what it is supposed to do?
+
+The prototype is meant to detect certain objects in the frame or hand gestures that students make when they are confused. It sends alerts to the instructor whenever these conditions are discovered.
+The prototype successfully detects the phone it was trained on and other similar phone shapes and sizes.  
+
 2. When does it fail?
+
+However it fails when similar solid rectangular objects are help up to the user's face. Additionally, Prototype fails when the phone is oriented in wrong directions, when people’s hands aren’t fully in frame when tracking gestures. The build primarily fails in the detection phase as the alerting function has been consistent after detecting a condition. 
+
 3. When it fails, why does it fail?
+
+The model most likely has not been fitted enough on these edge cases, in which case we can give it some sample “bad cases” to train on. More specific fatures could be added such as looking for different camera cut outs for android and iPhone. 
+
 4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+Other than similar rectangular shapes producing false positives, other conditions such as poor lighting, poor contrast, and anomolies such as the Galaxy Fold (Large tablet like phone) or other oddly shaped devices could cause problems with the trained model.
+
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
@@ -143,30 +160,52 @@ For example:
 3. How could change your interactive system to address this?
 
 - Intensive training measures can be implemented with different scenes, varying models, and lots of variation.
-- ...
+- To Improve Accuracy: 
+Mount the camera in a set location from the desk and screw the chair in place (include the furniture in the prototype).
+Use a camera with a wider field of view
+Use the servo motor to rotate the camera so it is always tracking the user’s hands
+Implement a leeway system: Only send reports if a student is detected to be using their phones above a certain amount of times with a certain time period.
+Create a manual review process: Clip the last 10 seconds of every detection and have them sent to the instructor for verification.
 
+4.Are there optimizations you can try to do on your sense-making algorithm?
+Try to give it a robust training dataset with multiple types of phones with different rotation offsets relative to the camera plane. For demo reliability we can train it on the same people with the same clothing and test it with the same person to eliminate any inconsistencies. We could also crop the camera display that is shown to the user so there is a buffer area before their hands move out of bounds.
 
-4. Are there optimizations you can try to do on your sense-making algorithm.
-
-- aksdjf;
-- 
 
 ### Part D
 ### Characterize your own Observant system
 
+#### Video
+https://www.youtube.com/watch?v=6A1rO7hNFI4
+<img src="https://user-images.githubusercontent.com/27168450/139769598-88cbe8e5-070e-4392-8fd2-08185a7a790e.png" width="100" height="300">
+<img src="https://user-images.githubusercontent.com/27168450/139769521-a619be2c-f602-4ddc-98fb-c32121c648d8.png" width="100" height="300">
+<img src="https://user-images.githubusercontent.com/27168450/139769631-0a569db7-510f-4246-a28f-da094abc7fa4.png" width="100" height="300">
+
+
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+Detecting students not paying attention and using their cellphones during class. 
+
 * What is a good environment for X?
+Good lighting and similar environment to training environment.
+
 * What is a bad environment for X?
+Poor lighting, no contrast. 
+
 * When will X break?
+When the model has smilar objects presented to it. 
 * When it breaks how will X break?
+X could potentially classify the object wrong. 
+
 * What are other properties/behaviors of X?
+X needs lots of care and training. 
+
 * How does X feel?
+X is really happy when it can identify a phone.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
-### Part 2.
+### Part 2. (NEXT WEEK)
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
