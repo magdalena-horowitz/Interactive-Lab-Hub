@@ -1,5 +1,5 @@
 # Observant Systems
-#### Magdalena Horowitz and Ethan Chang (Group XYZ on Canvas)
+#### Magdalena Horowitz and Ethan Chang (Group 5, 1)
 
 
 ### Deliverables for this lab are:
