@@ -1,5 +1,5 @@
 # Observant Systems
-#### Magdalena Horowitz and Ethan Chang (Group 5, 1)
+#### Magdalena Horowitz (myh26) and Ethan Chang (ec687) (Group 5, Team 1)
 
 
 ### Deliverables for this lab are:
@@ -204,6 +204,12 @@ X needs lots of care and training.
 X is really happy when it can identify a phone.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+#### Magdalena Horowitz (myh26) and Ethan Chang (ec687) (Group 5, Team 1)
+
+
+
+
 
 ### Part 2. (NEXT WEEK)
 
