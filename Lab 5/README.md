@@ -220,4 +220,12 @@ Following exploration and reflection from Part 1, finish building your interacti
 - This is a great idea! I found it to be a very effective way to keep track of students in class. I particularly liked how you added the post-class metrics portion, where the teacher can see if students were confused at what points and for which topics. You could perhaps further the project by having it also notify the students if they are doing something wrong, like pulling out their phone. Often during zoom meetings I pull out my phone just naturally, where I wouldn’t in class and it is somewhat by accident. It might help to remind the student to stay focused. This can apply to beyond just looking at your phone, but maybe talking to someone off the screen. You could also add audio to the project, where perhaps it dings or something when a student is looking at their phone. This might get distracting for the lecturer, though.
 - great work, this concept would be helpful for professors that feel like their students aren't paying attention in class, but I don't think I would want this to ever be implemented in real life because I rarely pay attention lol. A good way to extend this idea would be to also have it detect when a student is using a laptop during class
 
+![image](https://user-images.githubusercontent.com/27168450/140798650-68acf099-be26-4432-9f3d-aa7af0dfb0b2.png)
+![image](https://user-images.githubusercontent.com/27168450/140798693-89d4e812-b55c-4005-970f-328b6e79befa.png)
+
+
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+https://drive.google.com/file/d/1E1NPHdJ31OiZhhzYBJcuR9STkeVkvv39/view?usp=sharing
+![image](https://user-images.githubusercontent.com/27168450/140798592-ae1516c0-8ae6-4118-8b28-bdc2b347fe19.png)
+
