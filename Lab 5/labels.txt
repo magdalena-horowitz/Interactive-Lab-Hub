@@ -1,3 +1,4 @@
-0 no mask
-1 mask
-2 background
+0 Phone
+1 Confused
+2 Hand Raised
+3 Talking
