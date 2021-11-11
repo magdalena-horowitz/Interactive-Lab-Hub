@@ -18,14 +18,12 @@ E) [Make It Your Own](#part-)
 ## Part 1.
 
 ### Part A
-### MQTT
 
+### MQTT
 MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networks. It was later adopted as a defacto standard for a variety of [Internet of Things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things) devices. 
 
 #### The Bits
 Once connected, you should be able to see all the messages under the IDD topic. , go to the **Publish** tab and try publish something! From the interface you can send and plot messages as well. Remember, you are limited to subtopics of `IDD`. That is, to publish or subcribe, the topics will start with `IDD/`.
-
-![publish settings](imgs/mqtt_explorer_2.png?raw=true)
 
 
 ### Part B
